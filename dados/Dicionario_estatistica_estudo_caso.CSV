@@ -1,0 +1,23 @@
+Variável;Descrição;Classificação sugerida;Observações
+id_projeto;Identificador único do projeto;Quantitativa discreta / ID;Não deve ser usado em cálculos estatísticos como variável de interesse
+ano_conclusao;Ano em que o projeto foi concluído;Qualitativa ordinal / temporal;2024 ou 2025
+setor_cliente;Setor de atuação do cliente;Qualitativa nominal;Educação, Saúde, Finanças, Varejo, Indústria ou Governo
+metodologia;Metodologia predominante de desenvolvimento;Qualitativa nominal;Ágil, Tradicional ou Híbrida
+equipe;Equipe responsável pelo projeto;Qualitativa nominal;Alpha, Beta, Gamma, Delta, Sigma ou Omega
+porte_projeto;Porte geral do projeto;Qualitativa ordinal;Pequeno, Médio ou Grande
+complexidade;Complexidade técnica do projeto;Qualitativa ordinal;Baixa, Média, Alta ou Muito alta
+num_desenvolvedores;Quantidade de desenvolvedores alocados;Quantitativa discreta;Número de pessoas
+experiencia_media_anos;Experiência média da equipe;Quantitativa contínua;Em anos
+duracao_planejada_dias;Duração prevista do projeto;Quantitativa discreta;Dias corridos
+duracao_real_dias;Duração real do projeto;Quantitativa discreta;Dias corridos
+atraso_dias;Diferença entre duração real e planejada;Quantitativa discreta;Pode ser negativa quando houve antecipação
+mudancas_requisitos;Quantidade de mudanças de requisitos registradas;Quantitativa discreta;Contagem
+horas_extras;Total de horas extras registradas no projeto;Quantitativa contínua;Horas
+bugs_total;Total de bugs identificados após testes internos e homologação;Quantitativa discreta;Contagem
+bugs_criticos;Total de bugs críticos identificados;Quantitativa discreta;Contagem
+tempo_medio_correcao_horas;Tempo médio para correção de bugs;Quantitativa contínua;Horas
+retrabalho_horas;Total de horas de retrabalho;Quantitativa contínua;Horas
+custo_estimado_mil;Custo estimado do projeto;Quantitativa contínua;Em milhares de reais
+custo_real_mil;Custo real do projeto;Quantitativa contínua;Em milhares de reais
+satisfacao_cliente;Nota de satisfação do cliente;Quantitativa discreta / escala;Escala de 0 a 10
+entregue_no_prazo;Indica se o projeto foi entregue no prazo;Qualitativa nominal;Sim ou Não

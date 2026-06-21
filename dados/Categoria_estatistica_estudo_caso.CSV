@@ -1,0 +1,23 @@
+Campo;Categoria
+Metodologia;Ágil
+Metodologia;Tradicional
+Metodologia;Híbrida
+Setor do cliente;Educação
+Setor do cliente;Saúde
+Setor do cliente;Finanças
+Setor do cliente;Varejo
+Setor do cliente;Indústria
+Setor do cliente;Governo
+Complexidade;Baixa
+Complexidade;Média
+Complexidade;Alta
+Complexidade;Muito alta
+Equipe;Alpha
+Equipe;Beta
+Equipe;Gamma
+Equipe;Delta
+Equipe;Sigma
+Equipe;Omega
+Porte do projeto;Pequeno
+Porte do projeto;Médio
+Porte do projeto;Grande
