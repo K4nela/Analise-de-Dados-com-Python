@@ -1,0 +1,12 @@
+plt.figure(figsize=(10, 6))
+sns.regplot(
+    data=df,
+    x='horas_extras',
+    y='atraso_dias',
+    scatter_kws={'alpha': 0.5},
+    line_kws={'color': 'red'}
+)
+plt.title('Relação entre Horas Extras e Atraso')
+plt.xlabel('Total de Horas Extras')
+plt.ylabel('Dias de Atraso')
+plt.show()
