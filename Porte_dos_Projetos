@@ -1,0 +1,8 @@
+df['porte_projeto'].value_counts().plot.pie(
+    autopct='%1.1f%%',
+    startangle=90,
+    cmap='Pastel1'
+)
+plt.title('Proporção do Porte dos Projetos')
+plt.ylabel('')
+plt.show()
