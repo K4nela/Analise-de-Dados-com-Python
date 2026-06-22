@@ -1,0 +1,18 @@
+plt.figure(figsize=(10, 6))
+sns.histplot(
+    df['atraso_dias'],
+    kde=True,
+    color='salmon',
+    bins=15
+)
+plt.axvline(
+    df['atraso_dias'].mean(),
+    color='red',
+    linestyle='--',
+    label=f"Média: {df['atraso_dias'].mean():.2f}"
+)
+plt.title('Distribuição da Frequência de Atrasos')
+plt.xlabel('Dias de Atraso')
+plt.ylabel('Frequência de Projetos')
+plt.legend()
+plt.show()
