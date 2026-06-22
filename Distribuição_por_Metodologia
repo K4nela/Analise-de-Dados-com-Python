@@ -1,0 +1,11 @@
+plt.figure(figsize=(8, 5))
+sns.countplot(
+    data=df,
+    x='metodologia',
+    palette='viridis',
+    order=['Ágil', 'Híbrida', 'Tradicional']
+)
+plt.title('Distribuição de Projetos por Metodologia (2024-2025)')
+plt.xlabel('Metodologia')
+plt.ylabel('Quantidade de Projetos')
+plt.show()
