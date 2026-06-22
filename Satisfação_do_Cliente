@@ -1,0 +1,9 @@
+plt.figure(figsize=(6, 8))
+sns.boxplot(
+    y=df['satisfacao_cliente'],
+    color='lightblue',
+    width=0.3
+)
+plt.title('Dispersão da Satisfação do Cliente (NPS)')
+plt.ylabel('Nota de Satisfação (0 a 10)')
+plt.show()
