@@ -1,0 +1,11 @@
+plt.figure(figsize=(10, 6))
+sns.scatterplot(
+    data=df,
+    x='bugs_total',
+    y='satisfacao_cliente',
+    alpha=0.6
+)
+plt.title('Impacto dos Bugs na Satisfação do Cliente')
+plt.xlabel('Total de Bugs')
+plt.ylabel('Nota de Satisfação')
+plt.show()
